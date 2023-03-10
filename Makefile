@@ -10,7 +10,7 @@ install:
 	
 	wget -O ./hadolint https://github.com/hadolint/hadolint/releases/download/v1.16.3/hadolint-Linux-x86_64 &&\
 	chmod +x ./hadolint
-	sudo mv hadolint /usr/local/bin/
+	
 	
 	wget -O /bin/minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
 	chmod +x /bin/minikube
